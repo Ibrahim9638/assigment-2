@@ -288,9 +288,6 @@ main{
 
     .quick-section {
         grid-template-columns: 1fr;
-        /* gap: 30px;
-        align-items: center;
-        margin: 95px 0; */
     }
     .quick-photo-section {
         grid-template-columns: 1fr;
