@@ -16,7 +16,6 @@ main{
 /* header section styles */
 .container {
   background-color: rgba(255, 144, 14, 0.1);
-
   padding: 30px 110px 45px 120px;
 }
 .g3-header-section {
@@ -236,8 +235,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    padding: 30px 80px;
-    
+    padding: 30px 80px; 
 }
 
 .creative-section-details:hover .creative-section-content img{
@@ -255,15 +253,74 @@ main{
 .footer-content {
   padding: 0 150px 0 195px;
   text-align: center;
-}
-.footer-element {
   background-color: #fff4e7;
   padding: 25px 0;
   border-radius: 5px;
-  color: #424242;
+  color: #1F1F1F;
   font-size: 18px;
+
 }
 
 /* Media Query */
+
+@media screen and (max-width: 576px) {
+
+    .g3-header-section{
+        flex-direction: column;
+    }
+    .nav-section-menu ul {
+        display: flex;
+        flex-direction: column;
+      }
+      .nav-section-menu ul li{
+        margin: 7px 0;
+      }
+      .brand-title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .brand-description {
+        font-size: 17px;
+        color: #727272;
+        width: 100%;
+    }
+
+    .quick-section {
+        grid-template-columns: 1fr;
+        /* gap: 30px;
+        align-items: center;
+        margin: 95px 0; */
+    }
+    .quick-photo-section {
+        grid-template-columns: 1fr;
+      }
+      .quick-photo-section img{
+        width: 100%;
+      }
+      .features-section {
+        grid-template-columns: 1fr; 
+      }
+      .fact-section-details {
+        grid-template-columns: 1fr;
+      }
+      .Sponspors-section-details {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+
+      .Sponspors-section-content img {
+        width: 60%;
+      }
+      .creative-section-details{
+        grid-template-columns: 1fr; 
+    }
+    .footer-content {
+        font-size: 16px;
+      }
+
+}
+
+
 
 
