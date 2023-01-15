@@ -74,7 +74,7 @@ body {
   height: 700px;
 }
 
-/* Quick section */
+/* Quick section styles*/
 
 .quick-section {
   display: flex;
@@ -115,7 +115,7 @@ body {
   margin-bottom: 32px;
   text-align: justify;
 }
-/* Features section */
+/* Features section styles*/
 
 .features-section {
   display: grid;
@@ -168,7 +168,7 @@ body {
 	border-radius: 8px;
 }
 
-/* Fact Section */
+/* Fact Section styles*/
 
 .fact-section {
 	padding: 20px 0 100px 230px;
@@ -203,7 +203,7 @@ body {
   font-weight: 700;
 }
 
-/* Sponspors section */
+/* Sponspors section styles */
 
 .Sponspors-section {
   text-align: center;
@@ -228,8 +228,10 @@ body {
 .Sponspors-section-content img {
   filter: grayscale(100%);
 }
+/* Creative Section styles */
 
-/* Footer Section */
+
+/* Footer Section styles*/
 .footer-content {
   padding: 0 150px 0 195px;
   text-align: center;
@@ -244,26 +246,4 @@ body {
 
 /* Media Query */
 
-@media screen and (max-width: 576px) {
-  .g3-header-section {
-    flex-direction: column;
-  }
 
-  .brand-title {
-    font-size: 25px;
-  }
-  .nav-section-menu ul {
-    flex-direction: column;
-  }
-  .nav-section-menu ul li {
-    margin-bottom: 25px;
-  }
-  .brand-header-content {
-    margin-top: -50px;
-    padding: 30px;
-  }
-  .brand-image img {
-    width: 100%;
-    height: 200px;
-  }
-}
