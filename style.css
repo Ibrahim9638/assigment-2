@@ -6,6 +6,7 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* header section styles */
@@ -229,8 +230,34 @@ body {
   filter: grayscale(100%);
 }
 /* Creative Section styles */
+.creative-section{
+    text-align: center;
+}
+.creative-title{
+    font-size: 36px;
+}
+.creative-title span{
+    color: #33ccc5;
+}
+.creative-section-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px 100px;
+    
+}
 
+.creative-section-details:hover .creative-section-content img{
+    transform: scale(1.8);
+    width: 250px;
+    height: 180px;
+}
 
+.creative-section-content img{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 2s;
+}
 /* Footer Section styles*/
 .footer-content {
   padding: 0 150px 0 195px;
